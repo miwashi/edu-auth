@@ -8,7 +8,7 @@ const bodyParser = require("body-parser");
 
 
 //CONNECT TO DB
-mongoose.connect("mongodb+srv://Richard:test1234@cluster0.suryg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {
+mongoose.connect("", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
